@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open Sans");
 
 html {
-  background: url("../components/assets/triangle-mosaic.png") no-repeat center
-    fixed;
+  background: url("/triangle-mosaic.png") no-repeat center fixed;
   background-size: cover;
 }
 
