@@ -82,7 +82,16 @@
     left: 0%;
   }
 
+  .control2 {
+    width: auto;
+    height: auto;
+    margin-left: 0px;
+  }
+
   .skills {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     width: 350px;
     height: 350px;
   }
