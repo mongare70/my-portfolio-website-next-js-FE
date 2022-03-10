@@ -13,7 +13,7 @@ const Projects = () => {
         <div className={classes.row}>
           <div className={classes.column}>
             <a
-              href="https://hillary-oyaro-mongare.vercel.app/"
+              href="https://github.com/mongare70/my-portfolio-website-next-js-FE"
               target="_blank"
               rel="noopener noreferrer"
             >
