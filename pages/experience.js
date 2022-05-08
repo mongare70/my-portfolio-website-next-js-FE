@@ -30,26 +30,31 @@ const Experience = () => {
               <li>HTML5</li>
               <li>CSS3</li>
               <li>ES6+</li>
-              <li>React</li>
-              <li>Netlify</li>
+              <li>React JS</li>
+              <li>Next JS</li>
               <li>Figma</li>
+              <li>Netlify</li>
+              <li>Vercel</li>
             </div>
             <div className={classes["skills-list-item"]}>
               <li>Python3</li>
               <li>Flask</li>
               <li>Java</li>
-              <li>PHP</li>
               <li>Spring Boot</li>
+              <li>PHP</li>
+              <li>CodeIgniter4</li>
+              <li>Android</li>
               <li>Heroku</li>
             </div>
             <div className={classes["skills-list-item"]}>
               <li>MySQL</li>
-              <li>SQLite3</li>
               <li>PostgreSQL</li>
+              <li>Firebase</li>
             </div>
             <div className={classes["skills-list-item"]}>
-              <li>VS Code</li>
-              <li>Eclipse IDE</li>
+              <li>Git</li>
+              <li>CircleCI</li>
+              <li>Docker</li>
             </div>
           </div>
           <p className={classes.recommendation}>

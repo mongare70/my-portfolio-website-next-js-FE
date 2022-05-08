@@ -6,6 +6,10 @@
   z-index: 1;
 }
 
+.control p {
+  width: 50%;
+}
+
 .control2 {
   position: absolute;
   top: 0;
@@ -61,6 +65,14 @@
     z-index: 1;
   }
 
+  .control h1 {
+    text-align: center;
+  }
+
+  .control p {
+    width: auto;
+  }
+
   .control2 {
     padding: 10px;
     left: 0%;
@@ -76,5 +88,12 @@
 
   .footer {
     position: relative;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .control {
+    margin-top: 6%;
+    margin-left: 17%;
   }
 }

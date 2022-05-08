@@ -45,7 +45,10 @@ const Contact = () => {
       <div className={classes.control}>
         {isLoading && <Spinner />}
         <h1>Contact</h1>
-        <p>Want to say hello or have a question/proposal? Go ahead.</p>
+        <p>
+          Want to say hello or have a question/proposal? Go ahead. (Don&apos;t
+          spam me 😁)
+        </p>
         <ContactForm onAddSenderData={addSenderDataHandler} />
       </div>
       <div className={classes.control2}>
@@ -82,7 +85,7 @@ const Contact = () => {
         </div>
       </div>
       <div className={classes.footer}>
-        <p>Designed and coded by Hillary Mongare &copy; 2021</p>
+        <p>Designed and coded by Hillary Mongare &copy; 2022</p>
       </div>
     </Layout>
   );

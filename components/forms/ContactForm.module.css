@@ -87,14 +87,14 @@
   .form-control textarea,
   .form-control select {
     width: 100%;
-    max-width: 95%;
+    max-width: 100%;
   }
 
   .form-control-invalid input,
   .form-control-invalid textarea,
   .form-control-invalid select {
     width: 100%;
-    max-width: 95%;
+    max-width: 100%;
   }
 
   .form-actions button {

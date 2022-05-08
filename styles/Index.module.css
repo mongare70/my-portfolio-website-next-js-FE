@@ -110,3 +110,16 @@
     align-items: center;
   }
 }
+
+/* (1920x1080) Full HD Display */
+@media screen and (min-width: 1920px) {
+  .control {
+    margin-top: 15%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .control3 {
+    top: 18%;
+  }
+}

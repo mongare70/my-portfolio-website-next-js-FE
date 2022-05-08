@@ -49,3 +49,13 @@
     width: auto;
   }
 }
+
+@media screen and (min-width: 1920px) {
+  .control {
+    margin-left: 17%;
+  }
+
+  .column {
+    width: 600px;
+  }
+}
