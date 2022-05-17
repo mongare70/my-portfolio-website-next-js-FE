@@ -62,7 +62,7 @@ const Contact = () => {
           />
           <h3>Hillary Oyaro Mongare</h3>
           <p>Bsc. Computer Science</p>
-          <p>Freelancer</p>
+          <p>Full Stack Developer</p>
           <p>+254707113238</p>
           <p>Nairobi, Kenya.</p>
           <div className={classes.icon}>
