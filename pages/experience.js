@@ -21,10 +21,13 @@ const Experience = () => {
         <div className={classes.experience}>
           <h1>Experience</h1>
           <p>
-            As for me everyday is a learning experience. It’s impossible to know
-            everthing but I get to practice on my craft as much as possible.{" "}
+            As for me everyday is a learning experience. It&apos;s impossible to
+            know everthing but I get to practice on my craft as much as
+            possible.{" "}
           </p>
-          <p>Here are the technologies that I’ve been working with recently;</p>
+          <p>
+            Here are the technologies that I&apos;ve been working with recently;
+          </p>
           <div className={classes["skills-list"]}>
             <div className={classes["skills-list-item"]}>
               <li>HTML5</li>

@@ -15,9 +15,9 @@ const Projects = () => {
       <div className={classes.control}>
         <h1 className={classes["pg-title"]}>Projects</h1>
         <p className={classes["title-desc"]}>
-          I'm an avid learner of technology. I use project-based learning to
-          improve my skillset by implementing learned programming concepts in a
-          real-world environment. Here are my recent{" "}
+          I&apos;m an avid learner of technology. I use project-based learning
+          to improve my skillset by implementing learned programming concepts in
+          a real-world environment. Here are my recent{" "}
           <span className={classes["title-desc1"]}>projects</span>.
         </p>
         <div className={classes.row}>
@@ -84,9 +84,9 @@ const Projects = () => {
               </div>
               <h2>Moms Have This To Say</h2>
               <p>
-                A landing page of the 'Moms Have This To Say' company based in
-                Maui, Hawaii. The technologies used include Figma, Next.js,
-                CSS3, Firebase, and Flask.
+                A landing page of the &apos;Moms Have This To Say&apos; company
+                based in Maui, Hawaii. The technologies used include Figma,
+                Next.js, CSS3, Firebase, and Flask.
               </p>
             </a>
           </div>
