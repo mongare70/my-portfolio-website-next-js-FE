@@ -60,7 +60,7 @@ const Contact = () => {
             priority="true"
             alt="Hillary Oyaro Mongare"
           />
-          <h3>Hillary Oyaro Mongare</h3>
+          <h3>Hillary Mongare</h3>
           <p>Bsc. Computer Science</p>
           <p>Full Stack Developer</p>
           <p>+254707113238</p>
