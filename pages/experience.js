@@ -21,10 +21,13 @@ const Experience = () => {
         <div className={classes.experience}>
           <h1>Experience</h1>
           <p>
-            As for me everyday is a learning experience. It’s impossible to know
-            everthing but I get to practice on my craft as much as possible.{" "}
+            As for me everyday is a learning experience. It&apos;s impossible to
+            know everthing but I get to practice on my craft as much as
+            possible.{" "}
           </p>
-          <p>Here are the technologies that I’ve been working with recently;</p>
+          <p>
+            Here are the technologies that I&apos;ve been working with recently;
+          </p>
           <div className={classes["skills-list"]}>
             <div className={classes["skills-list-item"]}>
               <li>HTML5</li>
@@ -55,11 +58,13 @@ const Experience = () => {
               <li>Git</li>
               <li>CircleCI</li>
               <li>Docker</li>
+              <li>Kubernetes</li>
+              <li>Google Cloud Platform</li>
             </div>
           </div>
           <p className={classes.recommendation}>
-            If you would like to know more about me or are simply curious feel
-            free to download my CV or get in touch.
+            If you would like to know more about me or are simply curious,
+            request to view my CV or get in touch.
           </p>
           <br></br>
           <a
@@ -68,7 +73,7 @@ const Experience = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Download CV
+            Request CV
             <span className={classes.icon}>
               <FaFileDownload />
             </span>

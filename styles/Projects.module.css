@@ -1,5 +1,24 @@
+.pg-title {
+  color: #028b9e;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Merriweather";
+}
+.title-desc {
+  font-size: 16px;
+  font-family: "Merriweather";
+}
+
+.title-desc1 {
+  color: #028b9e;
+}
+
+.project-img {
+  text-align: center;
+  margin: 10px;
+}
+
 .control {
-  font-size: 18px;
   margin-left: 200px;
   margin-right: 200px;
   margin-bottom: 50px;
@@ -7,9 +26,9 @@
 
 .row {
   width: auto;
-  height: 200px;
+  height: 350px;
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .row a {
@@ -18,12 +37,13 @@
 }
 
 .column {
+  padding: 10px;
   border-radius: 5px;
   width: 490px;
   margin: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   background-color: white;
-  height: inherit;
+  height: 365px;
 }
 
 .column:hover {
@@ -32,11 +52,21 @@
 
 .column h2 {
   font-family: "Merriweather";
+  font-weight: bold;
+  font-size: 18px;
   text-align: center;
-  padding: 13%;
+}
+
+.column p {
+  font-family: "Open Sans";
+  font-size: 12px;
 }
 
 @media all and (max-width: 969px) {
+  .pg-title {
+    text-align: center;
+  }
+
   .control {
     margin: 10px;
   }
@@ -52,10 +82,12 @@
 
 @media screen and (min-width: 1920px) {
   .control {
-    margin-left: 17%;
+    margin-left: 10%;
+    margin-bottom: 30px;
   }
 
   .column {
     width: 600px;
+    height: 350px;
   }
 }
