@@ -1,11 +1,21 @@
 import { FaFileDownload } from "react-icons/fa";
 import Image from "next/image";
 
+import * as ga from "../lib/ga";
 import Layout from "../components/layouts/Layout";
 import skills from "../components/assets/code.png";
 import classes from "../styles/Experience.module.css";
 
 const Experience = () => {
+  const requestCVHandler = () => {
+    ga.event({
+      action: "Request CV",
+      params: {
+        button: "Request Access",
+      },
+    });
+  };
+
   return (
     <Layout>
       <div className={classes.control2}>
@@ -68,6 +78,7 @@ const Experience = () => {
           </p>
           <br></br>
           <a
+            onClick={requestCVHandler}
             className={classes.actions}
             href="https://drive.google.com/file/d/1W6xNp7w_A7-0IU0f7U4QTc_esupy7Yy_/view?usp=sharing"
             target="_blank"

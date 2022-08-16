@@ -1,9 +1,30 @@
+import { Fragment, useEffect } from "react";
+import Head from "next/head";
+import { useRouter } from "next/router";
+
+import * as ga from "../lib/ga";
 import "../styles/globals.css";
 import "../styles/Header.css";
-import { Fragment } from "react";
-import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      ga.pageview(url);
+    };
+
+    // When component is mounted, subscribe to router changes
+    // and log those page views
+    router.events.on("routeChangeComplete", handleRouteChange);
+
+    // if the component is unmounted, unsubscribe
+    // from the event with the 'off' method
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
+
   return (
     <Fragment>
       <Head>
